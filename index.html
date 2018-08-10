@@ -1,46 +1,80 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
 
   <title>LOD Applications</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">LOD Applications</h1>
-  </div>
+  <header>
 
-  <div class="container">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light white scrolling-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="./">LOD Applications</a>
+      </button>
 
-    <div class="list-group">
-      <!--
-      <a href="iiif.html" class="list-group-item list-group-item-action">List and show iiif manifests</a>
-      <a href="timeline.html" class="list-group-item list-group-item-action">Changes of number of items</a>
-      <a href="items.html" class="list-group-item list-group-item-action">List and count items</a>
-      <a href="item-sets.html" class="list-group-item list-group-item-action">List item-sets</a>
-      <a href="media.html" class="list-group-item list-group-item-action">Count media</a>
-      <a href="tei.html" class="list-group-item list-group-item-action">List TEI files</a> -->
-      <a href="timeline.html" class="list-group-item list-group-item-action">タイムライン</a>
-      <a href="items.html" class="list-group-item list-group-item-action">類別</a>
     </div>
+  </nav>
+  <!--/.Navbar-->
 
+</header>
 
-    <footer class="pt-4 my-md-5 pt-md-5 border-top">
-      <div class="row">
-        <div class="col-12 col-md">
-          <small class="d-block mb-3 text-muted">&copy; 2018 UTokyo Academic Archives Project Development Office.</small>
-        </div>
-      </div>
-    </footer>
+<!--Main layout-->
+<div class="container mb-5">
+
+  <div class="list-group mt-5">
+    <a href="timeline.html" class="list-group-item list-group-item-action">Timeline</a>
+    <!--
+    <a href="items.html" class="list-group-item list-group-item-action">Items</a> -->
   </div>
+
+</div>
+<!--/.Main layout-->
+
+<!--Footer-->
+<footer class="page-footer text-center font-small mdb-color darken-2 mt-4 fadeIn">
+
+  <!--Copyright-->
+  <div class="footer-copyright py-5">
+    <a href="https://researchmap.jp/nakamura.satoru/?lang=english">Satoru Nakamura</a>. CC BY.
+  </div>
+  <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+
+
+<!-- SCRIPTS -->
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
+
+<script>
+new WOW().init();
+</script>
 
 </body>
+
 </html>
